@@ -97,6 +97,7 @@ names(X_clean) <- col_X_cleans
 X_tidy <- aggregate(X_clean[,3:68],by=list(X_clean$Activity,X_clean$Subject),FUN=mean)
 names(X_tidy)[1] <- "Activity"
 names(X_tidy)[2] <- "Subject"
+X_tidy[,68] <- NULL
 
 # Save the X_tidy data as tidy_data_set.txt
 write.table(X_tidy, file = 'tidy_data.txt', row.names = F)

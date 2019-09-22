@@ -1,5 +1,6 @@
-tidy_data_set.txt
+tidy_data.txt
 data/
 !data/.gitkeep
 .Rhistory
 .Rproj.user/
+.RData
