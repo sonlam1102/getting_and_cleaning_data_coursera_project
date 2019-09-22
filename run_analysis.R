@@ -99,4 +99,4 @@ names(X_tidy)[1] <- "Activity"
 names(X_tidy)[2] <- "Subject"
 
 # Save the X_tidy data as tidy_data_set.txt
-write.table(X_tidy, file = 'tidy_data_set.txt', row.names = F)
+write.table(X_tidy, file = 'tidy_data.txt', row.names = F)
